@@ -21,4 +21,4 @@
 4. 一个模块一个module，比如：登录模块（module_login）(跳转使用，请参考https://github.com/WinterRunner/xRouter)
 5. AppManager管理整个app的存储，设置，信息缓存等，通过工厂类，用户工厂，设置类工厂，数据库工厂，分别实现相应的功能。
 6. 利用最顶层视图ContentLayout对所有页面的显示进行控制（成功，失败，空，加载...）
-7. 利用rxjave2+rxlifecycle2将网络请求和生命周期进行绑定.
+7. 利用rxjave2+rxlifecycle2将网络请求和生命周期进行绑定,防止fragment或者activity不能释放，导致内存泄漏
