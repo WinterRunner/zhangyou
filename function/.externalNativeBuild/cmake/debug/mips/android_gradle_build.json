@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "/Users/liukunxu/Documents/github/zhangyou/function/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/Users/liukunxu/Documents/android_sdk/cmake/3.6.3155560/bin/cmake --build /Users/liukunxu/Documents/github/zhangyou/function/.externalNativeBuild/cmake/debug/mips --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"encrypt-Debug-mips" : 
+		{
+			"abi" : "mips",
+			"artifactName" : "encrypt",
+			"buildCommand" : "/Users/liukunxu/Documents/android_sdk/cmake/3.6.3155560/bin/cmake --build /Users/liukunxu/Documents/github/zhangyou/function/.externalNativeBuild/cmake/debug/mips --target encrypt",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=mipsel-none-linux-android --gcc-toolchain=/Users/liukunxu/Documents/android_sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/liukunxu/Documents/android_sdk/ndk-bundle/platforms/android-15/arch-mips  -Dencrypt_EXPORTS -isystem /Users/liukunxu/Documents/android_sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/liukunxu/Documents/android_sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/mips/include -isystem /Users/liukunxu/Documents/android_sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/liukunxu/Documents/github/zhangyou/function/src/main/cpp/encrypt.cpp",
+					"workingDirectory" : "/Users/liukunxu/Documents/github/zhangyou/function/.externalNativeBuild/cmake/debug/mips"
+				}
+			],
+			"output" : "/Users/liukunxu/Documents/github/zhangyou/function/build/intermediates/cmake/debug/obj/mips/libencrypt.so",
+			"toolchain" : "9907553963113999629"
+		}
+	},
+	"toolchains" : 
+	{
+		"9907553963113999629" : 
+		{
+			"cCompilerExecutable" : "/Users/liukunxu/Documents/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/liukunxu/Documents/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

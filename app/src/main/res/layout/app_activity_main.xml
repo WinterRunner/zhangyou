@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="com.threesome.zhangyou.MainActivity">
+
+    <com.threesome.ximageview.XImageView
+        android:id="@+id/xiv_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/iv_main_bg" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:gravity="center"
+            android:background="@drawable/shape_circle_trans_black"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="管理"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/textsize_18" />
+
+        <TextView
+            android:layout_marginLeft="60dp"
+            android:gravity="center"
+            android:background="@drawable/shape_circle_trans_black"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="签到"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/textsize_18" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="150dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:gravity="center"
+            android:background="@drawable/shape_circle_trans_black"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="发布"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/textsize_18" />
+
+        <TextView
+            android:layout_marginLeft="60dp"
+            android:gravity="center"
+            android:background="@drawable/shape_circle_trans_black"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="录入"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/textsize_18" />
+    </LinearLayout>
+</RelativeLayout>

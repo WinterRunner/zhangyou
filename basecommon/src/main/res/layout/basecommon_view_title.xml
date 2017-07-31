@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/color_main">
+    <ImageView
+        android:id="@+id/iv_back_bc"
+        android:paddingRight="@dimen/margin_border"
+        android:paddingLeft="@dimen/margin_border"
+        android:src="@mipmap/iv_back_white"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+    <TextView
+        android:textStyle="bold"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:id="@+id/tv_title_center_bc"
+        android:textSize="@dimen/textsize_18"
+        android:textColor="@color/color_main2"
+        android:gravity="center"
+        android:text="标题"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/tv_title_right_bc"
+        android:paddingLeft="@dimen/margin_border"
+        android:paddingRight="@dimen/margin_border"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/textsize_16"
+        android:gravity="center"
+        android:layout_alignParentRight="true"
+        android:text="保存"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+</RelativeLayout>

@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "/Users/liukunxu/Documents/github/zhangyou/function/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/Users/liukunxu/Documents/android_sdk/cmake/3.6.3155560/bin/cmake --build /Users/liukunxu/Documents/github/zhangyou/function/.externalNativeBuild/cmake/release/armeabi --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"encrypt-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "encrypt",
+			"buildCommand" : "/Users/liukunxu/Documents/android_sdk/cmake/3.6.3155560/bin/cmake --build /Users/liukunxu/Documents/github/zhangyou/function/.externalNativeBuild/cmake/release/armeabi --target encrypt",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/Users/liukunxu/Documents/android_sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/liukunxu/Documents/android_sdk/ndk-bundle/platforms/android-15/arch-arm  -Dencrypt_EXPORTS -isystem /Users/liukunxu/Documents/android_sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/liukunxu/Documents/android_sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /Users/liukunxu/Documents/android_sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Os -DNDEBUG -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/liukunxu/Documents/github/zhangyou/function/src/main/cpp/encrypt.cpp",
+					"workingDirectory" : "/Users/liukunxu/Documents/github/zhangyou/function/.externalNativeBuild/cmake/release/armeabi"
+				}
+			],
+			"output" : "/Users/liukunxu/Documents/github/zhangyou/function/build/intermediates/cmake/release/obj/armeabi/libencrypt.so",
+			"toolchain" : "9907553963113999629"
+		}
+	},
+	"toolchains" : 
+	{
+		"9907553963113999629" : 
+		{
+			"cCompilerExecutable" : "/Users/liukunxu/Documents/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/liukunxu/Documents/android_sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}
