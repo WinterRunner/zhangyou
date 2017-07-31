@@ -9,9 +9,9 @@
 
 3.对rxjava2+retrofit2的二次封装，更简洁的请求方式；打印请求头和请求json，响应头和响应json,一目了然；cookie维持用户登录状态的管理
 
-4.背景使用了陀螺仪效果（https://github.com/WinterRunner/gyroscope）
+4.背景使用了陀螺仪效果（请参考：https://github.com/WinterRunner/gyroscope）
 
-5.使用路由进行模块化开发,解耦（https://github.com/WinterRunner/xRouter）
+5.使用路由进行模块化开发,解耦（请参考：https://github.com/WinterRunner/xRouter）
 
 6.统一的ContentLayout对加载成功，失败，空，加载中...的页面进行统一管理
 
