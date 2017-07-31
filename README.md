@@ -11,7 +11,7 @@
 
 4.背景使用了陀螺仪效果（https://github.com/WinterRunner/gyroscope）
 
-5.使用路由进行模块化开发,解耦
+5.使用路由进行模块化开发,解耦（https://github.com/WinterRunner/xRouter）
 
 6.统一的ContentLayout对加载成功，失败，空，加载中...的页面进行统一管理
 
