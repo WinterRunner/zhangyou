@@ -6,7 +6,7 @@
     android:gravity="center"
     tools:context="com.threesome.zhangyou.MainActivity">
 
-    <com.threesome.ximageview.XImageView
+    <com.winterrunner.xgyroscope.XImageView
         android:id="@+id/xiv_main"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

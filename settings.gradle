@@ -1,1 +1,1 @@
-include ':app', ':router', ':basecommon', ':module_login', ':ximageview', ':uilibrary', ':function'
+include ':app', ':router', ':basecommon', ':module_login', ':uilibrary', ':function', ':xgyroscope'

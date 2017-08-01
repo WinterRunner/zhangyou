@@ -1,4 +1,4 @@
-package com.threesome.ximageview;
+package com.winterrunner.xgyroscope;
 
 import org.junit.Test;
 

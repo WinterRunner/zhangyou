@@ -1,4 +1,4 @@
-package com.threesome.ximageview;
+package com.winterrunner.xgyroscope;
 
 import android.content.Context;
 import android.hardware.Sensor;

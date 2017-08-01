@@ -1,4 +1,4 @@
-package com.threesome.ximageview;
+package com.winterrunner.xgyroscope;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.threesome.ximageview.test", appContext.getPackageName());
+        assertEquals("com.winterrunner.xgyroscope.test", appContext.getPackageName());
     }
 }

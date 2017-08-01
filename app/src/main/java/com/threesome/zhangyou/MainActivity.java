@@ -10,11 +10,11 @@ import com.threesome.function.utils.Sout;
 import com.threesome.function.utils.StatusBarUtils;
 import com.threesome.function.utils.encrypt.DES3;
 import com.threesome.uilibrary.widget.ContentLayout;
-import com.threesome.ximageview.GyroscopeManager;
-import com.threesome.ximageview.XImageView;
 import com.threesome.zhangyou.test.RequestBean;
 import com.threesome.zhangyou.test.Result;
 import com.threesome.zhangyou.test.TestService;
+import com.winterrunner.xgyroscope.GyroscopeManager;
+import com.winterrunner.xgyroscope.XImageView;
 
 import io.reactivex.Observable;
 import io.reactivex.Observer;

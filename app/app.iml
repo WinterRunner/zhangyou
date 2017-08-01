@@ -108,10 +108,10 @@
     <orderEntry type="library" exported="" name="animated-vector-drawable-25.3.1" level="project" />
     <orderEntry type="library" exported="" name="glide-transformations-2.0.1" level="project" />
     <orderEntry type="module" module-name="uilibrary" exported="" />
+    <orderEntry type="module" module-name="xgyroscope" exported="" />
     <orderEntry type="module" module-name="basecommon" exported="" />
     <orderEntry type="module" module-name="function" exported="" />
     <orderEntry type="module" module-name="router" exported="" />
-    <orderEntry type="module" module-name="ximageview" exported="" />
     <orderEntry type="module" module-name="module_login" exported="" />
     <orderEntry type="library" exported="" scope="TEST" name="espresso-core-2.2.2" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="runner-0.5" level="project" />
